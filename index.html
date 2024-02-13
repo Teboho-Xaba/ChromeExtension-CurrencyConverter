@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Currency Converter</title>
+  </head>
+  <body>
+    <h1>Currency Converter</h1>
+
+    <input type="number" id="amount" placeholder="Enter in amount" /><br />
+    <select name="" id="currency">
+      <option value="USD">USD</option>
+      <option value="RSA">RSA</option>
+      <option value="EUR">EUR</option>
+      <option value="CNY">CNY</option>
+      <option value="RUB">RUB</option>
+      <option value="INR">INR</option>
+    </select>
+    <button id="convert">Convert</button>
+    <div id="result"></div>
+
     <script src="app.js"></script>
-</head>
-<body>
-    
-</body>
+  </body>
 </html>
